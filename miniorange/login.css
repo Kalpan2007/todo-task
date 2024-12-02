@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: poppins;
+    background-color: #f1f1f1; /* very light grey */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.image-side {
+    flex: 1;
+    background-color: lightgray; /* Orange color */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    overflow: hidden;
+}
+
+#bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.part2logo{
+    margin-top: -100px;
+}
+
+.image-side img {
+    height: auto;
+    border-radius: 10px;
+}
+.form-side{
+    background-color:#e28d72 ;
+}
+.logo{
+    img{
+        height:90px;
+        width: 400px;
+        margin-top: 50px;
+    }
+}
+
+.fst1{
+    margin-left: 20px;
+    color: white;
+}
+.fst2{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.fst2p{
+    color:lightgrey ;
+}
+.input-group {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color:lightgrey;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+#submit{
+    background-color: lightgrey; 
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 25%;
+    height: 8%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+.signup{
+    color: white;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .image-side {
+        height: 250px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-side {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .image-side img {
+        width: 100%;
+        height: auto;
+    }
+
+    .input-group {
+        width: 90%; 
+        margin-left: 5%;
+    }
+
+    .submit {
+        margin-left: 35%;
+        width: 30%;
+    }
+
+    .logo img {
+        width: 250px; 
+        margin-top: 20px;
+    }
+
+    .fst1, .fst2 {
+        font-size: 1.2rem; 
+    }
+
+    .signup {
+        font-size: 0.9rem; 
+    }
+}
+
