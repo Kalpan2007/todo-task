@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {}
+
+.nav1 {
+    display: flex;
+    height: 45px;
+    width: 100%;
+}
+
+.login {
+    margin-left: auto; /* Aligns the login section to the right */
+    padding-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.logintext {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    padding-top: 8px;
+}
+
+.search {
+    display: flex;
+    align-items: center; /* Center align input and button vertically */
+}
+
+.search button {
+    height: 28px;
+    background-color: #e09781;
+    border: none;
+    border-radius: 2px;
+}
+
+.search input {
+    height: 25px;
+    margin-left: 80px;
+}
+
+.nav2 {
+    display: flex;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo img {
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 45px;
+    width: 205px;
+}
+
+.nav2p2 {
+    display: flex;
+}
+
+.product {
+    position: relative; /* Needed for absolute positioning of the dropdown */
+    margin-left: 100px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+
+.producthover {
+    display: none; 
+    position: absolute; 
+    top: 100%; /* Fixing missing unit */
+    left: 0; 
+    border-radius: 10px;
+    z-index: 1; 
+    width: 250px;
+    background-color: rgb(221, 221, 221);
+}
+
+.product:hover .producthover {
+    display: block; 
+}
+
+.plugins {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 50px;
+}
+
+.pricing{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.company{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.resources{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.Customer{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 50px;
+}
+.signup button {
+    height: 30px;
+    width: 125px;
+    border: none;
+    background-color: #ff5722;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.signup {
+    margin-left: 60px;
+    margin-top: 17px;
+}
+
+.contactus button {
+    height: 30px;
+    width: 125px;
+    border:1px solid #ff5722;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.contactus {
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+.ddmhover:hover {
+    background-color: rgb(221, 221, 221);
+    color: #ff5722;
+}
+
+
+.pluginshover{
+    display: none; 
+    position: absolute; 
+    margin-top: 2vh;
+    border-radius: 10px;
+    z-index: 1; 
+    width: 100px;
+    background-color: rgb(221, 221, 221);
+}
+
+
+.plugins:hover .pluginshover{
+    display: block;
+}
+
+.pricinghover{
+    display: none; 
+    position: absolute; 
+    margin-top: 2vh;
+    border-radius: 10px;
+    z-index: 1; 
+    width: 150px;
+    background-color: rgb(221, 221, 221);
+}
+
+.pricing:hover .pricinghover{
+    display: block;
+}
+
+.resourceshover{
+    display: none; 
+    position: absolute; 
+    margin-top: 2vh;
+    border-radius: 10px;
+    z-index: 1; 
+    width: 120px;
+    background-color: rgb(221, 221, 221);
+}
+
+.resources:hover .resourceshover{
+    display: block;
+}
+
+.companyhover{
+    display: none; 
+    position: absolute; 
+    margin-top: 2vh;
+    border-radius: 10px;
+    z-index: 1; 
+    width: 120px;
+    background-color: rgb(221, 221, 221);
+}
+
+.company:hover .companyhover{
+    display: block;
+}
+
+.Customer:hover{
+    color: #ff5722;
+}
+
+.signup button:hover{
+    background-color: rgb(221, 221, 221);
+    color: #ff5722;
+}
+
+.contactus button:hover{
+    background-color: rgb(252, 124, 78);
+    border-color:rgb(221, 221, 221); 
+    color: white;
+
+}
+
+.second{
+    display: flex;
+    font-family: poppins;
+}
+.second1{
+    height: 140px;
+    width: 620px;
+    font-size: 1.5rem;
+    margin-left: 150px;
+    margin-top: 120px;
+    span{
+        color: #ff5722;
+    }
+    p{
+        height: 80px;
+        width: 620px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    button{
+        height: 40px;
+        width: 160px;
+        border-radius: 5px;
+        margin-top:60px ;
+        font-size: 14px;
+    }
+}
+
+.but1{
+    background-color: #ff5722;
+    color: white;
+    border: none;
+}
+
+.but2{
+    background-color: white;
+    border: 1px solid #ff5722;
+}
+
+.but2:hover{
+    background-color: rgb(252, 124, 78);
+    border-color:rgb(221, 221, 221); 
+    color: white;
+}
+
+.but1:hover{
+    background-color: rgb(221, 221, 221);
+    color: #ff5722;
+}
+
+.second2{
+    margin-top:120px ;
+    margin-left: 90px;
+    img{
+        height: 395px;
+        width: 550PX;
+    }
+}
+.third{
+    display: flex;
+    font-family: poppins;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.third1{
+    height: 120px;
+    width: 425px;
+    p{
+        font-size: 24px;
+        margin-left: 120px;
+    }
+}
+.plus{
+    color: #ff5722;
+    font-size: 40px;
+}
+.num{
+    font-size: 40px;
+    margin-left: 135px;
+    padding-top: 10px;
+}
+
+.third2{
+    width: 400px;
+    p{
+        font-size: 24px;
+        margin-left: 140px;  
+    }
+}
+.third3{
+    width: 400px;
+    p{
+        font-size: 24px;
+        margin-left: 60px;
+    }
+}
+.four{
+    font-family: poppins;
+    margin-top: 50px;
+    height: 780px;
+    background-color:#3d3d3d ;
+}
+.four1{
+    display: flex;
+    img{
+        height: 120px;
+        width: 120px;
+        margin-left: 120px;
+        margin-top: 50px;
+    }
+}
+.four1text{
+    color: white;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.four1text2{
+    color: white;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-left: 335px;
+}
+
+.four1text2:hover{
+    color: #ff5722;
+}
+.four2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.four2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.fimage img {
+    height: 32px;
+    width: 32px;
+}
+
+.finance{
+    height:30px;
+    width: 50px;
+} 
+
+.financetext{
+    color: white;
+    font-size: 18px;
+
+}
+.healthcare{
+    height:30px;
+    width: 50px;
+}
+
+.healthcaretext{
+    color: white;
+    font-size: 18px;
+}
+.goverment{
+    height:30px;
+    width: 50px;
+}
+.govermenttext{
+    color: white;
+    font-size: 18px;
+}
+.retail{
+    height:30px;
+    width: 50px;
+}
+
+.retailtext{
+    color: white;
+    font-size: 18px;
+}
+.education{
+    height:30px;
+    width: 50px;
+}
+.four3{
+    margin-top: 100PX;
+    display: flex;
+    font-family: poppins;
+}
+.box1{
+    height: 385px;
+    width: 520px;
+    background-color: #4F4F4F;
+    margin-left: 230px;
+}
+.box1p{
+    width: 415px;
+    height: 90px;
+    font-size: 38px;
+    color: white;
+    margin-left: 50px;
+    padding-top: 45px;
+}
+.box1p2{
+    height: 84px;
+    width: 420px;
+    font-size: 15px;
+    margin-top: 40px;
+    color: #a4a4a3;
+    margin-left: 50px;
+}
+.four3 img{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.four3 a{
+    color: #ff5722;
+    font-size: 18px;
+    margin-left: 150px;
+    padding-bottom: 10px;
+}
+.box2{
+    height: 385px;
+    width: 520px;
+    background-color: #4F4F4F;
+    margin-left: 30px;
+}
+.box2p{
+    width: 415px;
+    height: 90px;
+    font-size: 38px;
+    color: white;
+    margin-left: 50px;
+    padding-top: 45px;
+}
+.box2p2{
+    height: 84px;
+    width: 420px;
+    font-size: 15px;
+    margin-top: 40px;
+    color: #a4a4a3;
+    margin-left: 50px;
+}
+.box2 img{
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.five{
+    font-family: poppins;
+    height: 1000px;
+
+}
+.five1{
+    padding: 28px 0 0;
+}
+.fiveh1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.worldpress {
+    font-family: poppins;
+    margin: 0px 10px;
+    padding: 15px 25px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 8px 10px 5px 0px rgb(196, 193, 196);}
+
+.icon img {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle; 
+    margin-top: 2px;
+}
+.text {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-top: 2px;
+    font-weight: 500;
+}
+.atlassian{
+    font-family: poppins;
+    margin: 0px 10px;
+    padding: 15px 25px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: white;
+}
+
+.text1{
+    font-size: 18px;
+    vertical-align: middle;
+    margin-top: 2px;
+    font-weight: 500;
+    color: #3d3d3d;
+}
+.ideplatform{
+    font-family: poppins;
+    margin: 0px 10px;
+    padding: 15px 25px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: white;
+}
+
+.shopify{
+    font-family: poppins;
+    margin: 0px 10px;
+    padding: 15px 25px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: white;
+}
+
+.drupal{
+    font-family: poppins;
+    margin: 0px 10px;
+    padding: 15px 25px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    background-color: white;
+}
+
+.atlassian:hover{
+    box-shadow: 8px 10px 5px 0px rgba(163,161,163,1);
+}
+.ideplatform:hover{
+    box-shadow: 8px 10px 5px 0px rgba(163,161,163,1);
+}
+.shopify:hover{
+    box-shadow: 8px 10px 5px 0px rgba(163,161,163,1);
+}
+.drupal:hover{
+    box-shadow: 8px 10px 5px 0px rgba(163,161,163,1);
+}
+.five2{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin: 30px 100px 100px;
+    padding: 30px 80px 0px;
+    font-family: poppins;
+}
+.five2head{
+    margin: 20px 0px 10px;
+}
+.five2head b{
+    font-size: 36px;
+}
+.five2head2{
+    display: flex;
+}
+.five2head2 p{
+     color: #a4a4a3;;
+     height: 50px;
+     width: 966px;
+}
+.five2head2 button{
+    height: 40px;
+    width: 120px;
+    font-family: poppins;
+    margin: 0px 14px 14px 0px;
+    padding: 10px 15px;
+    background-color: #ff5722;
+    font-size: 14px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.five2head2 button:hover{
+    background-color: rgb(252, 124, 78);
+    color: white;
+}
+.five2part3 img{
+    height: 455px;
+    width: 1155px;
+    margin: 42px 0px 0px;
+}
+.five3{
+    display: flex;
+    font-family: poppins;
+    margin: 0px 174.6px;
+    padding: 10px 15px 30px;
+    background-image: linear-gradient(to right,black , blue);
+    border-radius: 10px;
+}
+.left{
+    margin: 15px 0px 0px;
+    padding: 0px 15px;
+    width: 60%;
+}
+.leftb{
+    font-size: 36px;
+    color: white;
+    margin: 20px 0px 10px;
+}
+
+.left p{
+    margin-top: 10PX;
+    font-size: 14px;
+    margin: 0px 0px 10px;
+    color: #C1C1C1;
+}
+.left button{
+    padding: 15px 20px;
+    background-color: #345CEE;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+.right{
+    font-family: poppins;
+    padding: 0px 15px;
+}
+.rightb{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.rightimage img{
+    height: 160px;
+    width: 140px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.rightb2{
+    color: white;
+    font-size: 18px;
+    font-size: 18px;
+    width: 300px;
+    margin-left: 110px;
+}
+
+.five4{
+
+}
+.five4h1{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.five4i1{
+    width: 90%;
+    margin-top: 50px;
+}
+.five4t1{
+    margin-left: 220px;
+    font-size: 2rem;
+}
+.f4t2{
+    margin-left: 310px;
+}
+.five4t2{
+    margin-top: 50px;
+    margin-left: 220px;
+    display: flex;
+}
+.f4t3{
+    width: 540px;
+    height: 80px;
+}
+.f4t4{
+    width: 540px;
+    height: 80px;
+    margin-left: 70px;
+}
+.five4t3{
+    display: flex;
+}
+.f4b1{
+   background-color: #eb5426;
+   color: white;
+   border: none;
+   width: 140px;
+   height: 40px;
+   font-size: 1.2rem;
+   font-family: poppins;
+   border-radius: 10px;
+   margin-left: 220px;
+}
+.f4b2{
+    background-color: #eb5426;
+   color: white;
+   border: none;
+   width: 140px;
+   height: 40px;
+   font-size: 1.2rem;
+   font-family: poppins;
+   border-radius: 10px;
+   margin-left: 470px;
+}
+.f4
